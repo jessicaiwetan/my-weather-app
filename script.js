@@ -23,22 +23,22 @@ const apiKey = "f5b41282eee26b267ec9582ff8c90534";
                 document.querySelector(".wind").innerHTML = data.wind.speed + " km/h";
 
                 if(data.weather[0].main === "Clouds"){
-                    weatherIcon.src = "images/clouds.png";
+                    weatherIcon.src = "./clouds.png";
                 }
                 else if(data.weather[0].main === "Clear"){
-                    weatherIcon.src = "images/sunny.png";
+                    weatherIcon.src = "./sunny.png";
                 }
                 else if(data.weather[0].main === "Rain"){
-                    weatherIcon.src = "images/rainny.png";
+                    weatherIcon.src = "./rainny.png";
                 }
                 else if(data.weather[0].main === "Drizzle"){
-                    weatherIcon.src = "images/drizzles.png";
+                    weatherIcon.src = "./drizzles.png";
                 }
                 else if(data.weather[0].main === "Clear"){
-                    weatherIcon.src = "images/sunny.png";
+                    weatherIcon.src = "./sunny.png";
                 }
                 else if(data.weather[0].main === "Mist"){
-                    weatherIcon.src = "images/mist1.png";
+                    weatherIcon.src = "./mist1.png";
                 }
 
                 document.querySelector(".weather").style.display = "block";
